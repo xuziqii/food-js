@@ -1,0 +1,27 @@
+.box {
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background: rgb(233, 233, 233);
+  .inputLines {
+    margin-bottom: 20px;
+    .line {
+      line-height: 1.5;
+      display: flex;
+      justify-content: space-between;
+      > input {
+        margin-left: 20px;
+      }
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+  .operation {
+    display: flex;
+    justify-content: space-around;
+  }
+
+}

@@ -1,0 +1,31 @@
+.foodList {
+  display: flex;
+  flex-direction: column;
+  .foodListLine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > div, span {
+      flex: 1;
+      text-align: center;
+    }
+    &.foodListHeader {
+      background: rgb(181, 185, 240);
+      line-height: 2.5;
+    }
+    &.foodListBody {
+      line-height: 2;
+    }
+    .operation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 0;
+      > button:first-child {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+

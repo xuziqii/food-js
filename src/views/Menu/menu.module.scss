@@ -1,0 +1,22 @@
+@import 'src/assets/style/food.common.scss';
+
+.foodSumHeader {
+  background: rgb(221, 218, 245);
+  line-height: 2.5;
+}
+// .operation {
+//   > button:first-child {
+//     margin-right: 20px;
+//   }
+// }
+
+
+
+.foodWeight {
+  > input {
+    width: 40px;
+  }
+}
+
+
+
